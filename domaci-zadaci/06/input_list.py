@@ -1,4 +1,4 @@
-from solutions import input_list # you can adjust the file name and the function name
+from solutions import input_list # you can adjust the file name from solutions(.py) to something else
 
 import unittest
 import random

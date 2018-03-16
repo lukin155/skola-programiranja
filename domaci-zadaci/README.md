@@ -4,6 +4,7 @@ Domaći zadaci su grupisani po celinama. Svaka celina sadrži jedan ili više za
 
 ## 06 Petlje
 ### input_list
-Napisati funkciju čiji je ulaz string, a izlaz lista. Namena funkcije je učitavanje liste s tastature. U ulaznom stringu, brojevi su odvojeni zapetom.  
+Napisati funkciju čiji je ulaz string, a izlaz lista. Ulazni string sadrži brojeve razdvojene zapetom, a izlaz je lista čiji su elementi ti brojevi. Prazan string se slika u praznu listu.  
 **Primer:**  
-1,2,3,4,5
+Ulaz: 1,2,3,4,5
+Izlaz (lista): [1, 2, 3, 4, 5]
