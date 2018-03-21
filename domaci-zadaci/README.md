@@ -15,6 +15,12 @@ Napisati funkciju koja za ulazni string proverava da li je palindrom. Izlaz funk
 ana - jeste palindrom  
 banana - nije palindrom
 
+### trim_str
+Napisati funkciju koja iz izlaznog stringa uklanja sve razmake (SPACE karaktere, " ") s početka i s kraja stringa.
+**Primer:**
+Ulaz: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My string&nbsp;&nbsp;"
+Izlaz: "My string"
+
 ### input_list
 Napisati funkciju čiji je ulaz string, a izlaz lista. Ulazni string sadrži brojeve razdvojene zapetom, a izlaz je lista čiji su elementi ti brojevi. Prazan string se slika u praznu listu.  
 **Primer:**  
