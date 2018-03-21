@@ -22,7 +22,10 @@ Ulaz: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My string&nbsp;&nbsp;"
 Izlaz: "My string"
 
 ### input_list
-Napisati funkciju čiji je ulaz string, a izlaz lista. Ulazni string sadrži brojeve razdvojene zapetom, a izlaz je lista čiji su elementi ti brojevi. Prazan string se slika u praznu listu.  
+Napisati funkciju za čitanje liste, čiji su ulazi dva stringa. Prvi ulazni argument (string) sadrži cele brojeve razdvojene određenim znakom (npr. zapetom). Drugi ulazni argument (string) je znak kojim su odvojeni brojevi u prvom stringu (ovakav znak se najčešće naziva delimiter). Izlaz je lista celih brojeva. Prazan string se slika u praznu listu.  
 **Primer:**  
-Ulaz: 1,2,3,4,5  
+Ulaz: brojevi = "1,2,3,4,5" , delimiter = ","  
 Izlaz (lista): [1, 2, 3, 4, 5]
+**Primer:**  
+Ulaz: brojevi = "11;25;36" , delimiter = ";"  
+Izlaz (lista): [11, 25, 36]
