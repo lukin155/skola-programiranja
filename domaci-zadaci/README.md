@@ -16,9 +16,9 @@ ana - jeste palindrom
 banana - nije palindrom
 
 ### trim_str
-Napisati funkciju koja iz izlaznog stringa uklanja sve razmake (SPACE karaktere, " ") s početka i s kraja stringa.
-**Primer:**
-Ulaz: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My string&nbsp;&nbsp;"
+Napisati funkciju koja iz izlaznog stringa uklanja sve razmake (SPACE karaktere, " ") s početka i s kraja stringa.  
+**Primer:**  
+Ulaz: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My string&nbsp;&nbsp;"  
 Izlaz: "My string"
 
 ### input_list
