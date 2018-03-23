@@ -3,10 +3,10 @@
 Domaći zadaci su grupisani po celinama. Svaka celina sadrži jedan ili više zadataka koji odgovaraju jednoj lekciji u [direktorijumu s lekcijama](https://github.com/lukin155/skola-programiranja/).
 
 U direktorijumima 01, 02, 03 itd. nalaze se testovi. Svaki zadatak (npr. is_palindrome) u odgovarajućem direktorijumu ima svoj test (npr. test_is_palindrome). Testovi se pokreću kao Pajton programi uz dodatni argument za detaljniji ispis "-v". Primer:  
-```python test_is_palindrome -v```
-Na ekranu će se pojaviti spisak testova, a svaki će imati jedan od tri ishoda - (1) test je uspešan (ok), (2) test je neuspešan (FAIL), ili (3) testirani kod je izazvao grešku (ERROR).
+```python test_is_palindrome.py -v```  
+Na ekranu će se pojaviti spisak testova, a svaki će imati jedan od tri ishoda - (1) test je uspešan (ok), (2) test je neuspešan (FAIL), ili (3) testirani kod je izazvao grešku (ERROR).  
 
-Pre pokretanja testa, moramo u isti folder staviti fajl s testom i fajl s rešenjem. Test (npr. test_is_palindrome) će potražiti odgovarajuću funkciju (npr. is_palindrome) u fajlu `solutions.py`. Ukoliko se vaše rešenje nalazi u nekom drugom fajlu, izmenite prvu liniju testa (`from solutions import...` treba da postane `from drugo_ime_fajla import...`).
+Pre pokretanja testa, moramo u isti folder staviti fajl s testom i fajl s rešenjem. Test (npr. test_is_palindrome) će potražiti odgovarajuću funkciju (npr. is_palindrome) u fajlu `solutions.py`. Ukoliko se vaše rešenje nalazi u nekom drugom fajlu, izmenite prvu liniju testa tako da `from solutions import...` postane `from drugo_ime_fajla import...`.
 
 ## 06 Petlje
 ### is_palindrome
