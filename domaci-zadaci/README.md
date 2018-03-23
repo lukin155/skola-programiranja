@@ -42,3 +42,9 @@ Napisati funkciju sub_str za nalaženje svih pozicija podstringa u stringu. Ulaz
 **Primer:**  
 sub_str("my string my", "my")  
 Izlaz (lista): [0, 10]
+
+### str_replace
+Napisati funkciju str_replace koja u ulaznom stringu pronalazi sva pojavljivanja traženog podstringa i zamenjuje ga datim zamenskim podstringom. Ulazi su string koji treba izmeniti, string koji se traži i string kojim se menja traženi string. Izlaz je izmenjeni string.  
+**Primer:**  
+str_replace("my house, my rules", "my", "your")  
+Izlaz: "your house, your rules"
