@@ -11,9 +11,16 @@ Pre pokretanja testa, moramo u isti folder staviti fajl s testom i fajl s rešen
 ## 06 Petlje
 ### is_palindrome
 Napisati funkciju is_palindrome koja za ulazni string proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj string koji se isto čita s leva i s desna.  
-**Primer**  
+**Primer:**  
 ana - jeste palindrom  
 banana - nije palindrom
+
+### is_number_palindrome
+Napisati funkciju is_number_palindrome koja za ulazni broj proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj broj koji se isto čita s leva i s desna.  
+NAPOMENA: Ulaz je celobrojni tip (int) i funkcija ga ne sme pretvarati u string.  
+**Primeri:**  
+1234321, 9889 - jesu palindromi  
+468, 987 - nije palindrom
 
 ### trim_str
 Napisati funkciju trim_str koja iz izlaznog stringa uklanja sve razmake (SPACE karaktere, " ") s početka i s kraja stringa.  
