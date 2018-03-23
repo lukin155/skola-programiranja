@@ -10,22 +10,28 @@ Pre pokretanja testa, moramo u isti folder staviti fajl s testom i fajl s rešen
 
 ## 06 Petlje
 ### is_palindrome
-Napisati funkciju koja za ulazni string proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj string koji se isto čita s leva i s desna.  
+Napisati funkciju is_palindrome koja za ulazni string proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj string koji se isto čita s leva i s desna.  
 **Primer**  
 ana - jeste palindrom  
 banana - nije palindrom
 
 ### trim_str
-Napisati funkciju koja iz izlaznog stringa uklanja sve razmake (SPACE karaktere, " ") s početka i s kraja stringa.  
+Napisati funkciju trim_str koja iz izlaznog stringa uklanja sve razmake (SPACE karaktere, " ") s početka i s kraja stringa.  
 **Primer:**  
 Ulaz: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My string&nbsp;&nbsp;"  
 Izlaz: "My string"
 
 ### input_list
-Napisati funkciju za čitanje liste, čiji su ulazi dva stringa. Prvi ulazni argument (string) sadrži cele brojeve razdvojene određenim znakom (npr. zapetom). Drugi ulazni argument (string) je znak kojim su odvojeni brojevi u prvom stringu (ovakav znak se najčešće naziva delimiter). Izlaz je lista celih brojeva. Prazan string se slika u praznu listu.  
+Napisati funkciju input_list za čitanje liste, čiji su ulazi dva stringa. Prvi ulazni argument (string) sadrži cele brojeve razdvojene određenim znakom (npr. zapetom). Drugi ulazni argument (string) je znak kojim su odvojeni brojevi u prvom stringu (ovakav znak se najčešće naziva delimiter). Izlaz je lista celih brojeva. Prazan string se slika u praznu listu.  
 **Primer:**  
 Ulaz: brojevi = "1,2,3,4,5" , delimiter = ","  
 Izlaz (lista): [1, 2, 3, 4, 5]  
 **Primer:**  
 Ulaz: brojevi = "11;25;36" , delimiter = ";"  
 Izlaz (lista): [11, 25, 36]
+
+### sub_str
+Napisati funkciju sub_str za nalaženje svih pozicija podstringa u stringu. Ulazi su string u kome se traži i podstring koji se traži, a izlaz je lista pozicija na kojima se podstring pojavljuje u stringu. Ukoliko se podstring ne pojavljuje u stringu, izlaz je prazna lista.  
+**Primer:**  
+sub_str("my string my", "my")  
+Izlaz (lista): [0, 10]
