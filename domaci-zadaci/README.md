@@ -23,6 +23,9 @@ Napisati funkciju koja računa obim i površinu kvadrata. Ulaz funkcije je broj 
 ### 4.2 rectangle_circumference_and_area
 Napisati funkciju koja računa obim i površinu pravougaonika. Ulaz funkcije su dva broja koja odgovaraju dužinama stranica pravouganika, a izlaz je uređena N-torka (tuple), koja se sastoji od dva broja - prvi je obim, a drugi površina pravougaonika.
 
+### 4.3 solve_quadratic_equation
+Napisati funkciju koja za date keoficijente kvadratne jednačine (a, b, c) računa rešenja kvadratne jednačine i vraća ih kao uređenu N-torku (tuple), i to prvo manje, pa zatim veće rešenje.
+
 ## 5. Naredba grananja - if
 **NAPOMENA:** Zadaci iz ove oblasti nemaju testove.
 ### 5.1 Teška kategorija
