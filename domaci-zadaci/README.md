@@ -10,36 +10,39 @@ Pre pokretanja testa, moramo u isti folder staviti fajl s testom i fajl s rešen
 
 ## 3. Stringovi, promenljive, tipovi podataka, interakcija s korisnikom
 **NAPOMENA:** Zadaci iz ove oblasti nemaju testove.
-### Ostatak pri deljenju brojem 10
+### 3.1 Ostatak pri deljenju brojem 10
 Napisati program koji s tastature učitava ceo broj, a zatim računa i na ekranu ispisuje njegov ostatak pri deljenju brojem 10. Program ne sme da koristi operator ostatka pri deljenju (%).
 
-### Ostatak nasumičnog broja pri deljenju brojem 10
+### 3.2 Ostatak nasumičnog broja pri deljenju brojem 10
 Napisati program koji generiše nasumičan ceo broj, a zatim računa i na ekranu ispisuje njegov ostatak pri deljenju brojem 10. Program ne sme da koristi operator ostatka pri deljenju (%).
 
 ## 4. Funkcije
-### square_circumference_and_area
-Napisati funkciju koja računa obim i površinu kvadrata. Ulaz funkcije je stranica kvadrata, a izlaz je uređena N-torka (tuple), koja se sastoji od dva broja - prvi je obim, a drugi površina kvadrata.
+### 4.1 square_circumference_and_area
+Napisati funkciju koja računa obim i površinu kvadrata. Ulaz funkcije je broj koji odgovara dužini stranice kvadrata, a izlaz je uređena N-torka (tuple), koja se sastoji od dva broja - prvi je obim, a drugi površina kvadrata.
+
+### 4.2 rectangle_circumference_and_area
+Napisati funkciju koja računa obim i površinu pravougaonika. Ulaz funkcije su dva broja koja odgovaraju dužinama stranica pravouganika, a izlaz je uređena N-torka (tuple), koja se sastoji od dva broja - prvi je obim, a drugi površina pravougaonika.
 
 ## 5. Naredba grananja - if
 **NAPOMENA:** Zadaci iz ove oblasti nemaju testove.
-### Teška kategorija
+### 5.1 Teška kategorija
 Napisati program koji s tastature učitava kilažu korisnika u kilogramima, a zatim ispisuje na ekranu poruku koja govori korisniku da li pripada teškoj ili lakoj kategoriji. Lakoj kategoriji pripadaju oni s kilažom ispod 80kg, a teškoj oni s kilažom iznad 80kg.
 
-### Dobar dan ili ćao
+### 5.2 Dobar dan ili ćao
 Napisati program koji s tastature učitava starost korisnika **u mesecima** i na izlazu programa ispisuje jednu od sledećih poruka:
 - ukoliko je korisnik punoletan: Dobar dan!
 - ukoliko je korisnik maloletan: Ćao!
 
-### Teška kategorija i punoletstvo
+### 5.3 Teška kategorija i punoletstvo
 Napisati program koji s tastature učitava kilažu korisnika u kilogramima i starost u godinama, a zatim ispisuje na ekranu poruku koja govori korisniku da li se može takmičiti u teškoj kategoriji. U teškoj kategoriji mogu se takmičiti punoletne osobe (preko 18 godina) koje imaju preko 80 kilograma.
 
-### Jutro, dan ili veče
+### 5.4 Jutro, dan ili veče
 Napisati program koji s tastature uzima podatak o zaokruženom broju sati (ceo broj između 0 i 23) i ispisuje jednu od sledećih poruka:  
 - Ukoliko je manje od 12 sati: Dobro jutro!
 - Ukoliko je između 12 i 17 sati: Dobar dan!
 - Ukoliko je više od 17 sati: Dobro veče!
 
-### Dete, radno sposoban, ili penzioner
+### 5.5 Dete, radno sposoban, ili penzioner
 Napisati program koji s tastature učitava starost korisnika u godinama, danima i mesecima. Odrediti kojoj kategoriji korisnik pripada:
 - Dete (ispod 18 godina)
 - Radno sposoban (između 18 i 65 godina)
@@ -51,7 +54,7 @@ Napisati program koji s tastature učitava starost korisnika u godinama, danima 
 65 godina, 0 meseci i 0 dana - nije penzioner
 65 godina, 0 meseci i 1 dana - jeste penzioner
 
-### Grafik potrošnje
+### 5.6 Grafik potrošnje
 Napisati program koji s tastature učitava potrošnju struje za prethodni mesec, a zatim i za tekući mesec. Po učitavanju, ispisuje se informacija o tome da li je potrošnja manja ili veća nego u prethodnom mesecu, i za koliko posto. Pored toga, iscrtava se i "grafik potrošnje".  
 
 **Primer 1**  
@@ -83,26 +86,26 @@ Grafik "Previous" uvek ima 10 stubića (znakova jednako), jer predstavlja refere
 - 36% manje - 6 stubića"
 
 ## 6. Petlje
-### is_palindrome
+### 6.1 is_palindrome
 Napisati funkciju is_palindrome koja za ulazni string proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj string koji se isto čita s leva i s desna.  
 **Primer:**  
 ana - jeste palindrom  
 banana - nije palindrom
 
-### is_number_palindrome
+### 6.2 is_number_palindrome
 Napisati funkciju is_number_palindrome koja za ulazni broj proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj broj koji se isto čita s leva i s desna.  
 NAPOMENA: Ulaz je celobrojni tip (int) i funkcija ga ne sme pretvarati u string.  
 **Primeri:**  
 1234321, 9889 - jesu palindromi  
 468, 987 - nije palindrom
 
-### trim_str
+### 6.3 trim_str
 Napisati funkciju trim_str koja iz izlaznog stringa uklanja sve razmake (SPACE karaktere, " ") s početka i s kraja stringa.  
 **Primer:**  
 Ulaz: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My string&nbsp;&nbsp;"  
 Izlaz: "My string"
 
-### input_list
+### 6.4 input_list
 Napisati funkciju input_list za čitanje liste, čiji su ulazi dva stringa. Prvi ulazni argument (string) sadrži cele brojeve razdvojene određenim znakom (npr. zapetom). Drugi ulazni argument (string) je znak kojim su odvojeni brojevi u prvom stringu (ovakav znak se najčešće naziva delimiter). Izlaz je lista celih brojeva. Prazan string se slika u praznu listu.  
 **Primer:**  
 Ulaz: brojevi = "1,2,3,4,5" , delimiter = ","  
@@ -111,13 +114,13 @@ Izlaz (lista): [1, 2, 3, 4, 5]
 Ulaz: brojevi = "11;25;36" , delimiter = ";"  
 Izlaz (lista): [11, 25, 36]
 
-### sub_str
+### 6.5. sub_str
 Napisati funkciju sub_str za nalaženje svih pozicija podstringa u stringu. Ulazi su string u kome se traži i podstring koji se traži, a izlaz je lista pozicija na kojima se podstring pojavljuje u stringu. Ukoliko se podstring ne pojavljuje u stringu, izlaz je prazna lista.  
 **Primer:**  
 sub_str("my string my", "my")  
 Izlaz (lista): [0, 10]
 
-### str_replace
+### 6.6 str_replace
 Napisati funkciju str_replace koja u ulaznom stringu pronalazi sva pojavljivanja traženog podstringa i zamenjuje ga datim zamenskim podstringom. Ulazi su string koji treba izmeniti, string koji se traži i string kojim se menja traženi string. Izlaz je izmenjeni string.  
 **Primer:**  
 str_replace("my house, my rules", "my", "your")  
