@@ -8,7 +8,81 @@ Na ekranu će se pojaviti spisak testova, a svaki će imati jedan od tri ishoda 
 
 Pre pokretanja testa, moramo u isti folder staviti fajl s testom i fajl s rešenjem. Test (npr. test_is_palindrome) će potražiti odgovarajuću funkciju (npr. is_palindrome) u fajlu `solutions.py`. Ukoliko se vaše rešenje nalazi u nekom drugom fajlu, izmenite prvu liniju testa tako da `from solutions import...` postane `from drugo_ime_fajla import...`.
 
-## 06 Petlje
+## 3. Stringovi, promenljive, tipovi podataka, interakcija s korisnikom
+**NAPOMENA:** Zadaci iz ove oblasti nemaju testove.
+### Ostatak pri deljenju brojem 10
+Napisati program koji s tastature učitava ceo broj, a zatim računa i na ekranu ispisuje njegov ostatak pri deljenju brojem 10. Program ne sme da koristi operator ostatka pri deljenju (%).
+
+### Ostatak nasumičnog broja pri deljenju brojem 10
+Napisati program koji generiše nasumičan ceo broj, a zatim računa i na ekranu ispisuje njegov ostatak pri deljenju brojem 10. Program ne sme da koristi operator ostatka pri deljenju (%).
+
+## 4. Funkcije
+### square_circumference_and_area
+Napisati funkciju koja računa obim i površinu kvadrata. Ulaz funkcije je stranica kvadrata, a izlaz je uređena N-torka (tuple), koja se sastoji od dva broja - prvi je obim, a drugi površina kvadrata.
+
+## 5. Naredba grananja - if
+**NAPOMENA:** Zadaci iz ove oblasti nemaju testove.
+### Teška kategorija
+Napisati program koji s tastature učitava kilažu korisnika u kilogramima, a zatim ispisuje na ekranu poruku koja govori korisniku da li pripada teškoj ili lakoj kategoriji. Lakoj kategoriji pripadaju oni s kilažom ispod 80kg, a teškoj oni s kilažom iznad 80kg.
+
+### Dobar dan ili ćao
+Napisati program koji s tastature učitava starost korisnika **u mesecima** i na izlazu programa ispisuje jednu od sledećih poruka:
+- ukoliko je korisnik punoletan: Dobar dan!
+- ukoliko je korisnik maloletan: Ćao!
+
+### Teška kategorija i punoletstvo
+Napisati program koji s tastature učitava kilažu korisnika u kilogramima i starost u godinama, a zatim ispisuje na ekranu poruku koja govori korisniku da li se može takmičiti u teškoj kategoriji. U teškoj kategoriji mogu se takmičiti punoletne osobe (preko 18 godina) koje imaju preko 80 kilograma.
+
+### Jutro, dan ili veče
+Napisati program koji s tastature uzima podatak o zaokruženom broju sati (ceo broj između 0 i 23) i ispisuje jednu od sledećih poruka:  
+- Ukoliko je manje od 12 sati: Dobro jutro!
+- Ukoliko je između 12 i 17 sati: Dobar dan!
+- Ukoliko je više od 17 sati: Dobro veče!
+
+### Dete, radno sposoban, ili penzioner
+Napisati program koji s tastature učitava starost korisnika u godinama, danima i mesecima. Odrediti kojoj kategoriji korisnik pripada:
+- Dete (ispod 18 godina)
+- Radno sposoban (između 18 i 65 godina)
+- Penzioner (više od 65 godina)  
+
+**NAPOMENA (granični slučajevi):**
+18 godina, 0 meseci i 0 dana - nije punoletan
+18 godina, 0 meseci i 1 dan - jeste punoletan
+65 godina, 0 meseci i 0 dana - nije penzioner
+65 godina, 0 meseci i 1 dana - jeste penzioner
+
+### Grafik potrošnje
+Napisati program koji s tastature učitava potrošnju struje za prethodni mesec, a zatim i za tekući mesec. Po učitavanju, ispisuje se informacija o tome da li je potrošnja manja ili veća nego u prethodnom mesecu, i za koliko posto. Pored toga, iscrtava se i "grafik potrošnje".  
+
+**Primer 1**  
+Prethodni račun: 1000 din  
+Sadašnji račun: 1500 din  
+
+Izlaz:
+Previous:|==========
+Next: |===============
+Potrošnja u ovom mesecu je za 50% veća nego u prethodnom.
+
+**Primer 2**  
+Prethodni račun: 1000 din  
+Sadašnji račun: 9000 din  
+
+Izlaz:
+Previous:|==========
+Next: |=========
+Potrošnja u ovom mesecu je za 10% manja nego u prethodnom.
+
+**NAPOMENA**
+Grafik "Previous" uvek ima 10 stubića (znakova jednako), jer predstavlja referentnu vrednost (100%), a grafik za next ima promenljiv broj stubića, na primer:
+- 10% više - 11 stubića
+- 20% više - 12 stubića
+- 10% manje - 9 stubića
+- 53% više - 15 stubića
+- 57% više - 16 stubića
+- 33% manje - 7 stubića
+- 36% manje - 6 stubića"
+
+## 6. Petlje
 ### is_palindrome
 Napisati funkciju is_palindrome koja za ulazni string proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj string koji se isto čita s leva i s desna.  
 **Primer:**  
