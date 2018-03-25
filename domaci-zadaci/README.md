@@ -26,6 +26,9 @@ Napisati funkciju koja računa obim i površinu pravougaonika. Ulaz funkcije su 
 ### 4.3 solve_quadratic_equation
 Napisati funkciju koja za date keoficijente kvadratne jednačine (a, b, c) računa rešenja kvadratne jednačine i vraća ih kao uređenu N-torku (tuple), i to prvo manje, pa zatim veće rešenje.
 
+### 4.4 max_two
+Napisati funkciju koja računa maksimum dva broja.
+
 ## 5. Naredba grananja - if
 **NAPOMENA:** Zadaci iz ove oblasti nemaju testove.
 ### 5.1 Teška kategorija
