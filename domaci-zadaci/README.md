@@ -94,6 +94,12 @@ Grafik "Previous" uvek ima 10 stubića (znakova jednako), jer predstavlja refere
 - 33% manje - 7 stubića
 - 36% manje - 6 stubića"
 
+### 5.9 seconds_to_hours_minutes_seconds
+Napisati funkciju seconds_to_hours_minutes_seconds koja konvertuje broj sekundi u standardni digitalni zapis sati, minuta i sekundi. Ulaz je ceo broj koji predstavlja broj sekundi, a izlaz je string koji predstavlja zapis u satima, minutima i sekundama.  
+**Primer:**  
+seconds_to_hours_minutes_seconds(310)  
+Izlaz (string): 00:05:10
+
 ## 6. Petlje
 ### 6.1 is_palindrome
 Napisati funkciju is_palindrome koja za ulazni string proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj string koji se isto čita s leva i s desna.  
