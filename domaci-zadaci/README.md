@@ -26,11 +26,8 @@ Napisati funkciju koja računa obim i površinu pravougaonika. Ulaz funkcije su 
 ### 4.3 solve_quadratic_equation
 Napisati funkciju koja za date keoficijente kvadratne jednačine (a, b, c) računa rešenja kvadratne jednačine i vraća ih kao uređenu N-torku (tuple), i to prvo manje, pa zatim veće rešenje.
 
-### 4.4 max_two
-Napisati funkciju koja računa maksimum dva broja.
-
 ## 5. Naredba grananja - if
-**NAPOMENA:** Zadaci iz ove oblasti nemaju testove.
+**NAPOMENA:** Neki zadaci iz ove oblasti nemaju testove.
 ### 5.1 Teška kategorija
 Napisati program koji s tastature učitava kilažu korisnika u kilogramima, a zatim ispisuje na ekranu poruku koja govori korisniku da li pripada teškoj ili lakoj kategoriji. Lakoj kategoriji pripadaju oni s kilažom ispod 80kg, a teškoj oni s kilažom iznad 80kg.
 
@@ -48,7 +45,13 @@ Napisati program koji s tastature uzima podatak o zaokruženom broju sati (ceo b
 - Ukoliko je između 12 i 17 sati: Dobar dan!
 - Ukoliko je više od 17 sati: Dobro veče!
 
-### 5.5 Dete, radno sposoban, ili penzioner
+### 5.5 max_two
+Napisati funkciju koja računa maksimum dva broja.
+
+### 5.6 min_three
+Napisati funkciju koja računa maksimum tri broja.
+
+### 5.7 Dete, radno sposoban, ili penzioner
 Napisati program koji s tastature učitava starost korisnika u godinama, danima i mesecima. Odrediti kojoj kategoriji korisnik pripada:
 - Dete (ispod 18 godina)
 - Radno sposoban (između 18 i 65 godina)
@@ -60,7 +63,7 @@ Napisati program koji s tastature učitava starost korisnika u godinama, danima 
 65 godina, 0 meseci i 0 dana - nije penzioner
 65 godina, 0 meseci i 1 dana - jeste penzioner
 
-### 5.6 Grafik potrošnje
+### 5.8 Grafik potrošnje
 Napisati program koji s tastature učitava potrošnju struje za prethodni mesec, a zatim i za tekući mesec. Po učitavanju, ispisuje se informacija o tome da li je potrošnja manja ili veća nego u prethodnom mesecu, i za koliko posto. Pored toga, iscrtava se i "grafik potrošnje".  
 
 **Primer 1**  
