@@ -115,6 +115,10 @@ Ovu funkciju iskoristiti u programu i postaviti korisniku prvo pitanje, a na osn
 ### 5.11 is_vowel
 Napisati funkciju koja proverava da li je string samoglasnik. Ulaz je string, a izlaz logički tip (boolean).
 
+### 5.12 Sobe
+**NAPOMENA:** Ovaj zadatak nema testove.
+Napisati program koji postavlja korisnika u nasumično odabranu sobu u jednom stanu, govori mu u kojoj se sobi nalazi, a zatim mu nudi izbor soba u koje može dalje preći. Kada pređe u sledeću sobu, korisniku govorimo u kojoj se sada sobi nalazi, i nudimo novi skup soba u koje može otići iz te sobe i tako dalje za svaku sobu. Iz jedne u drugu sobu može se preći samo ako su povezane vratima. Za ovaj zadatak je najbolje iskoristiti model nekog vama poznatog stana. Za svaku sobu treba vezati po jedno slovo, a korisnik bira da pređe u sledeću sobu (ukoliko je ona dostupna iz trenutne sobe) unošenjem njenog slova.
+
 ## 6. Petlje
 ### 6.1 is_palindrome
 Napisati funkciju is_palindrome koja za ulazni string proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj string koji se isto čita s leva i s desna.  
