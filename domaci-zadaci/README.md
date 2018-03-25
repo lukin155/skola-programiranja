@@ -84,7 +84,7 @@ Previous:|==========
 Next: |=========
 Potrošnja u ovom mesecu je za 10% manja nego u prethodnom.
 
-**NAPOMENA**
+**NAPOMENA:**
 Grafik "Previous" uvek ima 10 stubića (znakova jednako), jer predstavlja referentnu vrednost (100%), a grafik za next ima promenljiv broj stubića, na primer:
 - 10% više - 11 stubića
 - 20% više - 12 stubića
@@ -99,6 +99,21 @@ Napisati funkciju seconds_to_hours_minutes_seconds koja konvertuje broj sekundi 
 **Primer:**  
 seconds_to_hours_minutes_seconds(310)  
 Izlaz (string): 00:05:10
+
+### 5.10 Yes or no
+**NAPOMENA:** Ovaj zadatak nema testove.
+Napisati funkciju yes_or_no(message) koja prihvata string , a taj string predstavlja pitanje/poruku za korisnika. Funkcija prikazuje korisniku pitanje (string) i očekuje da korisnik s tastature unese y ili Y kao potvrdan odgovor, odnosno, n ili N kao odričan odgovor. Ukoliko je odgovor potvrdan, funkcija vraća True. Ukoliko je odgovor odričan, funkcija vraća False. Ukoliko je korisnik uneo nešto što nije u skupu {y, Y, n, N}, funkcija treba da "baci" grešku.
+Ovu funkciju iskoristiti u programu i postaviti korisniku prvo pitanje, a na osnovu odgovora postaviti odgovarajuće drugo pitanje. Na primer:  
+* Hoćeš kafu?
+    * Y: Hoćeš mleko i šećer?
+        * Y: Izvoli kafu s mlekom i šećerom!
+        * N: Izvoli kafu!
+    * N: Hoćeš onda čaj?
+        * Y: Izvoli čaj!
+        * N: Onda ništa.
+
+### 5.11 is_vowel
+Napisati funkciju koja proverava da li je string samoglasnik. Ulaz je string, a izlaz logički tip (boolean).
 
 ## 6. Petlje
 ### 6.1 is_palindrome
