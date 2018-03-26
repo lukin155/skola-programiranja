@@ -39,9 +39,18 @@ class TestIsNumberPalindrome(unittest.TestCase):
 
         self.assertEqual(expected, actual)
 
-    # Test a one-digits number (every one-digits number is a palindrome)
-    def test_one_character(self):
+    # Test a one-digit number (every one-digit number is a palindrome)
+    def test_one_digit(self):
         testnum = 3
+
+        expected = True
+        actual = is_number_palindrome(testnum)
+
+        self.assertEqual(expected, actual)
+
+    # 0 is a palindrome
+    def test_0(self):
+        testnum = 0
 
         expected = True
         actual = is_number_palindrome(testnum)
