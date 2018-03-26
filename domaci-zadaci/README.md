@@ -120,26 +120,56 @@ Napisati funkciju koja proverava da li je string samoglasnik. Ulaz je string, a 
 Napisati program koji postavlja korisnika u nasumično odabranu sobu u jednom stanu, govori mu u kojoj se sobi nalazi, a zatim mu nudi izbor soba u koje može dalje preći. Kada pređe u sledeću sobu, korisniku govorimo u kojoj se sada sobi nalazi, i nudimo novi skup soba u koje može otići iz te sobe i tako dalje za svaku sobu. Iz jedne u drugu sobu može se preći samo ako su povezane vratima. Za ovaj zadatak je najbolje iskoristiti model nekog vama poznatog stana. Za svaku sobu treba vezati po jedno slovo, a korisnik bira da pređe u sledeću sobu (ukoliko je ona dostupna iz trenutne sobe) unošenjem njenog slova.
 
 ## 6. Petlje
-### 6.1 is_palindrome
+### 6.1 find_all_in_list
+Napisati funkciju koja nalazi svako pojavljivanje određenog elementa u listi i vraća listu pozicija na kojima se on pojavljuje. Ulazi funkcije su lista koja se pretražuje i traženi element, a izlaz je lista pozicija.  
+**Primer:**  
+find_all_in_list([10, 11, 10, 0, 1, 2, 10])  
+Izlaz: [0, 2, 6]
+
+### 6.2 find_first_in_list
+Napisati funkciju koja nalazi prvo pojavljivanje određenog elementa u listi i vraća poziciju na kojoj se on prvi put javlja. Ulazi funkcije su lista koja se pretražuje i traženi element, a izlaz je broj koji označava poziciju elementa u listi.  
+**Primer:**  
+find_first_in_list([10, 11, 10, 0, 1, 2, 10])  
+Izlaz: 0
+
+### 6.3 invert_list
+Napisati funkciju koji invertuje listu. Ulaz je lista, a izlaz invertovana lista.  
+**Primer:**  
+invert_list([1, 2, 3, 4, 5])  
+Izlaz: [5, 4, 3, 2, 1]
+
+### 6.4 list_max
+Napisati funkciju koja nalazi najveći element u listi.  
+**Primer:**  
+list_max([1, 2, 800, 3, 15])
+Izlaz: 800
+
+### 6.5 list_max_two
+Napisati funkciju koja nalazi dva najveća elementa u listi. Izlaz funkcije je uređena N-torka (tuple) - (najveći, drugi najveći).  
+**Primer:**  
+list_max_two([1, 2, 800, 3, 15])
+Izlaz: (800, 15)
+
+### 6.6 is_palindrome
 Napisati funkciju is_palindrome koja za ulazni string proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj string koji se isto čita s leva i s desna.  
 **Primer:**  
 ana - jeste palindrom  
 banana - nije palindrom
 
-### 6.2 is_number_palindrome
+### 6.7 is_number_palindrome
 Napisati funkciju is_number_palindrome koja za ulazni broj proverava da li je palindrom. Izlaz funkcije je logički tip (boolean, True ili False). Palindrom je onaj broj koji se isto čita s leva i s desna.  
 NAPOMENA: Ulaz je celobrojni tip (int) i funkcija ga ne sme pretvarati u string.  
 **Primeri:**  
 1234321, 9889 - jesu palindromi  
 468, 987 - nije palindrom
 
-### 6.3 trim_str
+### 6.8 trim_str
 Napisati funkciju trim_str koja iz izlaznog stringa uklanja sve razmake (SPACE karaktere, " ") s početka i s kraja stringa.  
 **Primer:**  
 Ulaz: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My string&nbsp;&nbsp;"  
 Izlaz: "My string"
 
-### 6.4 input_list
+### 6.9 input_list
 Napisati funkciju input_list za čitanje liste, čiji su ulazi dva stringa. Prvi ulazni argument (string) sadrži cele brojeve razdvojene određenim znakom (npr. zapetom). Drugi ulazni argument (string) je znak kojim su odvojeni brojevi u prvom stringu (ovakav znak se najčešće naziva delimiter). Izlaz je lista celih brojeva. Prazan string se slika u praznu listu.  
 **Primer:**  
 Ulaz: brojevi = "1,2,3,4,5" , delimiter = ","  
@@ -148,13 +178,13 @@ Izlaz (lista): [1, 2, 3, 4, 5]
 Ulaz: brojevi = "11;25;36" , delimiter = ";"  
 Izlaz (lista): [11, 25, 36]
 
-### 6.5. sub_str
+### 6.10. sub_str
 Napisati funkciju sub_str za nalaženje svih pozicija podstringa u stringu. Ulazi su string u kome se traži i podstring koji se traži, a izlaz je lista pozicija na kojima se podstring pojavljuje u stringu. Ukoliko se podstring ne pojavljuje u stringu, izlaz je prazna lista.  
 **Primer:**  
 sub_str("my string my", "my")  
 Izlaz (lista): [0, 10]
 
-### 6.6 str_replace
+### 6.11 str_replace
 Napisati funkciju str_replace koja u ulaznom stringu pronalazi sva pojavljivanja traženog podstringa i zamenjuje ga datim zamenskim podstringom. Ulazi su string koji treba izmeniti, string koji se traži i string kojim se menja traženi string. Izlaz je izmenjeni string.  
 **Primer:**  
 str_replace("my house, my rules", "my", "your")  
