@@ -120,6 +120,9 @@ Napisati funkciju koja proverava da li je string samoglasnik. Ulaz je string, a 
 Napisati program koji postavlja korisnika u nasumično odabranu sobu u jednom stanu, govori mu u kojoj se sobi nalazi, a zatim mu nudi izbor soba u koje može dalje preći. Kada pređe u sledeću sobu, korisniku govorimo u kojoj se sada sobi nalazi, i nudimo novi skup soba u koje može otići iz te sobe i tako dalje za svaku sobu. Iz jedne u drugu sobu može se preći samo ako su povezane vratima. Za ovaj zadatak je najbolje iskoristiti model nekog vama poznatog stana. Za svaku sobu treba vezati po jedno slovo, a korisnik bira da pređe u sledeću sobu (ukoliko je ona dostupna iz trenutne sobe) unošenjem njenog slova.
 
 ## 6. Petlje
+### is_in_list
+Napisati funkciju koja za određeni element proverava da li se nalazi u listi. Ulazi funkcije su lista koja se pretražuje i traženi element, a izlaz je logički tip.
+
 ### 6.1 find_all_in_list
 Napisati funkciju koja nalazi svako pojavljivanje određenog elementa u listi i vraća listu pozicija na kojima se on pojavljuje. Ulazi funkcije su lista koja se pretražuje i traženi element, a izlaz je lista pozicija.  
 **Primer:**  
