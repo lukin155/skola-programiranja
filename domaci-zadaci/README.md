@@ -130,7 +130,7 @@ find_all_in_list([10, 11, 10, 0, 1, 2, 10])
 Izlaz: [0, 2, 6]
 
 ### 6.2 find_first_in_list
-Napisati funkciju koja nalazi prvo pojavljivanje određenog elementa u listi i vraća poziciju na kojoj se on prvi put javlja. Ulazi funkcije su lista koja se pretražuje i traženi element, a izlaz je broj koji označava poziciju elementa u listi.  
+Napisati funkciju koja nalazi prvo pojavljivanje određenog elementa u listi i vraća poziciju na kojoj se on prvi put javlja. Ulazi funkcije su lista koja se pretražuje i traženi element, a izlaz je broj koji označava poziciju elementa u listi. Ukoliko se element ne nalazi u listi, funkcija vraća -1.  
 **Primer:**  
 find_first_in_list([10, 11, 10, 0, 1, 2, 10])  
 Izlaz: 0
