@@ -68,7 +68,7 @@ class TestIInList(unittest.TestCase):
         # If by some miracle none of the generated random numbers is equal to el, make sure there
         # is at least one el in the test list, by appending el to the end of the list
         if not is_there:
-            print("It's a miracle!" * 1000)
+            print("It's a miracle!\n" * 1000)
             in_list.append(el)
 
         actual = is_in_list(in_list, el)
